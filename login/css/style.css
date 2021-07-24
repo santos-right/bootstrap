@@ -1,0 +1,135 @@
+body {
+    font-family: lobster;
+}
+.circle {
+    display: flex;
+    margin-left: 10rem;
+}
+i {
+    color:cyan;
+    margin-top: 5rem;
+    font-size: xx-large;
+    margin-right: 1rem;
+}
+.col-md-5 {
+    background-color: black;
+    text-align: center;
+}
+h2 {
+    color: white;
+    font-size: xx-large;
+    margin-top: 5rem;
+}
+.form-group {
+    margin-top: 2rem;
+}
+.form-group > label {
+    color: white;
+    font-size: smaller;
+    margin-bottom: 0rem;
+}
+.email {
+    margin-right: 13rem;
+}
+.pass {
+    margin-right: 16rem;
+}
+.form-group > input {
+    background: transparent;
+    width: 20rem;
+    margin-left: 7rem;
+}
+.space > button {
+    background-color: orangered;
+    color: white;
+    width: 20rem;
+    margin-top: 0.9rem;
+    font-size: smaller;
+}
+.forget  {
+    margin-top: 2rem;
+}
+.forget > a {
+    color: white;
+    font-size: smaller;
+}
+.sign {
+    margin-top: 0.9rem;
+}
+.sign > a {
+    color: white;
+    font-size: smaller;
+}
+.or span, .or h6 {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    width: 100px;
+}
+.or span {
+    border-top: coral 2px solid;
+    height: 6px;
+}
+.or h6 {
+    width: 25px;
+}
+.copy-right {
+    color: white;
+    font-size: smaller;
+    margin-top: 2rem;
+}
+.term > a {
+    color: orangered;
+    font-size: smaller;
+    border-bottom: ridge;
+    text-decoration: none;
+}
+.term {
+    display: flex;
+    justify-content: space-between;
+}
+.use {
+    margin-left: 12rem;
+}
+.privacy {
+    margin-right: 13rem;
+}
+.create {
+    margin-top: 2rem;
+}
+.space button {
+    border-color: orangered;
+}
+
+.col-md-7 {
+    background-image: url("../images/pluralsight-login-bg-2019.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.plural {
+    margin-top: 18rem;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+h3 {
+    color: white;
+    font-size: xx-large;
+    margin-bottom: 2rem;
+    letter-spacing: 10px;
+}
+.plural span {
+    font-weight: 500;
+}
+.pipe {
+    color: white;
+}
+
+@font-face{
+    font-family: "lobster";
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url("../web-font/Lobster-Regular.ttf") format("truetype");
+}

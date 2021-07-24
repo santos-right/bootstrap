@@ -1,0 +1,79 @@
+body {
+    background-image: url("../images/safar-safarov.jpg");
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: BalsamiqSans;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+form {
+  background-color: tomato;
+  text-align: center;
+  border-radius: 3rem;
+}
+h2 {
+  
+  color: white;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.input-group {
+  margin-bottom: 3rem;
+}
+.input-group input {
+  border-radius: 5rem;
+  height: 3rem;
+  border-color: orangered;
+  border-style: solid;
+  font-weight: bold;
+  border: 1px solid;
+}
+.form-group input {
+  border-radius: 5rem;
+  height: 3rem;
+  border-color: orangered;
+  border-style: solid;
+  font-weight: bold;
+  border: 1px solid;
+}
+.form-group label {
+  color: grey;
+}
+.row {
+  justify-content: center;
+}
+.buttons {
+  text-align: center;
+  margin-top: 4rem;
+  /* border: 1px solid; */
+}
+.buttons button {
+  border-radius: 5rem;
+  background-color:orangered;
+  margin-bottom: 1rem;
+  border-color: tomato;
+  height: 3rem;
+}
+.button-body {
+  margin-top: 1rem;
+  text-align: center;
+}
+.button-body button {
+  border-radius: 5rem;
+  height: 3rem;
+  border: 1px solid orangered;
+}
+.custom-control label {
+  color: orange;
+}
+
+  
+
+  font-face{
+  font-family: "BalsamiqSans";
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("../web-font/BalsamiqSans-Italic.ttf") format("truetype");
+}
